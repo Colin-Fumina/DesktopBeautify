@@ -1,5 +1,7 @@
 # DesktopBeautify · 桌面美化
 
+**中文** | [English](README.en.md)
+
 > 平时只有一张干净的壁纸。需要时按住空格 —— **图标由浅入深地浮现，任务栏整条从屏幕下沿升起**；松开又隐藏。
 
 **Windows 11** · 原生 C 编写 · **单文件 106 KB** · 常驻内存 **1.6 MB** · 空闲 CPU **0%**
@@ -236,11 +238,13 @@ zig cc -target x86_64-windows-gnu -municode -O2 -s -Wall ^
 
 ## English
 
-**DesktopBeautify** is a tiny native Windows 11 utility that hides all desktop icons and the taskbar, leaving only your wallpaper. Hold **Space** while the desktop is focused and they fade in — icons fade up from nothing, the taskbar slides up from the bottom edge. Release and they're gone again.
+**DesktopBeautify** is a tiny native Windows 11 utility that hides all desktop icons and the taskbar, leaving only your wallpaper. Hold **Space** while the desktop is focused and they fade in — icons develop from nothing, the taskbar slides up from the bottom edge. Release and they're gone again.
 
 - **106 KB** single exe, **1.6 MB** resident memory, **0%** idle CPU
 - **No admin rights, no process injection, no impact on Wallpaper Engine** (measured)
 - Icons and taskbar stay managed by Windows itself — the app only flips the shell's own hide switch, so it can never lose your icons
 - Four layers of one-click recovery; it is impossible to get locked into a broken state
 
-See [docs/技术笔记.md](docs/技术笔记.md) (Chinese) for the reverse-engineering notes, including the `SWP_NOSENDCHANGING` trick for moving the taskbar and the per-pixel-alpha overlay technique for fading desktop icons without touching the wallpaper.
+👉 **[Full English documentation](README.en.md)**
+
+Technical notes (Chinese, with all measurements and dead ends): **[docs/技术笔记.md](docs/技术笔记.md)**
