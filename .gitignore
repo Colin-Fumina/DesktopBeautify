@@ -1,0 +1,29 @@
+# 编译产物（发布走 Releases，不进仓库）
+*.exe
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exp
+*.lib
+
+# 运行日志
+*.log
+
+# 发布压缩包
+*.zip
+
+# 构建工具链与缓存（体积很大，绝不入库）
+tools/
+zig-cache/
+.zig-cache/
+zig-out/
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+
+# Windows 系统文件
+Thumbs.db
+desktop.ini
