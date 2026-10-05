@@ -7,13 +7,19 @@
 **Windows 11** · 原生 C 编写 · **单文件 106 KB** · 常驻内存 **1.6 MB** · 空闲 CPU **0%**
 **不需要管理员权限** · **不注入任何进程** · **对 Wallpaper Engine 零影响**（实测验证）
 
-![按住空格时的效果](screenshots/02-按住空格图标与任务栏出现.jpg)
+![按住空格时的效果](screenshots/02-hold-space-icons-and-taskbar.jpg)
 
 <p align="center">
-  <img src="screenshots/01-隐藏后只剩壁纸.jpg" width="46%" alt="平时：只剩壁纸">
+  <img src="screenshots/01-idle-wallpaper-only.jpg" width="46%" alt="平时：只剩壁纸">
   &nbsp;&nbsp;
-  <img src="screenshots/03-桌面右键菜单.jpg" width="46%" alt="桌面右键菜单">
+  <img src="screenshots/03-desktop-context-menu.jpg" width="46%" alt="桌面右键菜单">
 </p>
+
+### 🎬 实拍演示
+
+[![点击播放实拍演示](screenshots/demo-camera-cover.jpg)](screenshots/demo-camera.mp4)
+
+> **注**：因为录屏无法录到渐变特效，本段为**相机实录**（点击封面播放，约 0.5 MB，画质有限，请以实际效果为准）。
 
 ---
 

@@ -7,13 +7,19 @@
 
 [中文说明](README.md) | **English**
 
-![Hold Space to bring up icons and taskbar](screenshots/02-按住空格图标与任务栏出现.jpg)
+![Hold Space to bring up icons and taskbar](screenshots/02-hold-space-icons-and-taskbar.jpg)
 
 <p align="center">
-  <img src="screenshots/01-隐藏后只剩壁纸.jpg" width="46%" alt="Idle: wallpaper only">
+  <img src="screenshots/01-idle-wallpaper-only.jpg" width="46%" alt="Idle: wallpaper only">
   &nbsp;&nbsp;
-  <img src="screenshots/03-桌面右键菜单.jpg" width="46%" alt="Desktop context menu">
+  <img src="screenshots/03-desktop-context-menu.jpg" width="46%" alt="Desktop context menu">
 </p>
+
+### 🎬 Camera-recorded demo
+
+[![Click to play the demo](screenshots/demo-camera-cover.jpg)](screenshots/demo-camera.mp4)
+
+> **Note:** screen-recording tools could not capture the fade effect, so this clip was **filmed with a camera** (click the cover to play, ~0.5 MB).
 
 > **Note:** the application UI is in Chinese (it targets Chinese-speaking Windows users).
 > The source code and these docs are fully readable to anyone.
